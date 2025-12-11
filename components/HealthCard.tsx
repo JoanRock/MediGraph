@@ -3,7 +3,7 @@ import {
   Heart, 
   Flame, 
   Zap, 
-  BicepsFlexed, 
+  Dumbbell, 
   Droplets, 
   ChevronDown, 
   CheckCircle2,
@@ -28,7 +28,7 @@ const getIcon = (name: string, className: string) => {
     case 'Heart': return <Heart className={className} />;
     case 'Flame': return <Flame className={className} />;
     case 'Zap': return <Zap className={className} />;
-    case 'BicepsFlexed': return <BicepsFlexed className={className} />;
+    case 'Dumbbell': return <Dumbbell className={className} />;
     case 'Droplets': return <Droplets className={className} />;
     default: return <Heart className={className} />;
   }

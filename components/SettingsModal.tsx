@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, Save, Activity, User, Heart, Flame, Zap, BicepsFlexed, Droplets, Lock } from 'lucide-react';
+import { X, Save, Activity, User, Heart, Flame, Zap, Dumbbell, Droplets, Lock } from 'lucide-react';
 import { HealthMetric, HealthStatus } from '../types';
 
 interface SettingsModalProps {
@@ -28,7 +28,7 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
       case 'Heart': return <Heart className="w-4 h-4 text-gray-500" />;
       case 'Flame': return <Flame className="w-4 h-4 text-gray-500" />;
       case 'Zap': return <Zap className="w-4 h-4 text-gray-500" />;
-      case 'BicepsFlexed': return <BicepsFlexed className="w-4 h-4 text-gray-500" />;
+      case 'Dumbbell': return <Dumbbell className="w-4 h-4 text-gray-500" />;
       case 'Droplets': return <Droplets className="w-4 h-4 text-gray-500" />;
       default: return <Activity className="w-4 h-4 text-gray-500" />;
     }
