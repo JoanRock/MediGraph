@@ -1,0 +1,5 @@
+{
+  "name": "MediGraph",
+  "description": "Un tauler de control de salut minimalista i d'alta fidelitat amb informació impulsada per IA i visualitzacions de dades interactives.",
+  "requestFramePermissions": []
+}
